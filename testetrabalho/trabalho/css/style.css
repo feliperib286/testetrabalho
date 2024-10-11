@@ -16,26 +16,31 @@ ul, ol {
     z-index: 1000;
     position: sticky;
 }
+
 .entrar {
     font-family: "Inter", sans-serif;
     color: #FFFFFF;
     padding: 20px 20px;
     padding-left: 75%;
 }
+
 .registro {
     font-family: "Inter", sans-serif;
     color: #FFFFFF;
     padding: 20px 20px;
 }
+
 .home {
     font-family: "Inter", sans-serif;
     color: #FFFFFF;
     padding: 20px 20px;
 }
+
 body {
     min-height: 100svh;
     background: linear-gradient(to bottom, #88BDBC, #3e5756 100%);
 }
+
 .quadrado {
     background-color: rgba(255, 255, 255, 0.5); /* Cor de fundo */
     border: 2px solid #000;
@@ -46,6 +51,7 @@ body {
     text-align: center;
     font-family: "Inter";
 }
+
 .quadrado-pag3 {
     background-color: rgba(255, 255, 255, 0.5); /* Cor de fundo */
     border: 2px solid #000;
@@ -56,6 +62,7 @@ body {
     text-align: left;
     font-family: "Inter";
 }
+
 .quadrado-questao {
     background-color: rgba(255, 255, 255, 0.5); /* Cor de fundo */
     border: 2px solid #000;
@@ -70,6 +77,7 @@ body {
 h1 {
     margin-bottom: 10px;
 }
+
 /*
 @media (max-width: 700px){
     .quadrado{
@@ -97,9 +105,9 @@ h1 {
     height: 350px; /* Altura do retângulo */
     background-color: #4f4a41; /* Cor de fundo */
     border-top-left-radius: 0; /* Bordas arredondadas no canto superior esquerdo */
-    border-top-right-radius: 0px; /* Bordas arredondadas no canto superior direito */
+    border-top-right-radius: 20px; /* Bordas arredondadas no canto superior direito */
     border-bottom-left-radius: 0; /* Sem arredondamento na parte inferior esquerda */
-    border-bottom-right-radius: 0px; /* Sem arredondamento na parte inferior direita */
+    border-bottom-right-radius: 20px; /* Sem arredondamento na parte inferior direita */
     position:fixed;
     left: 0%;
     right: 0%;
@@ -117,46 +125,56 @@ h1 {
     border-top-right-radius: 20px;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
+    
 }
+
 .botaoA {
-    width: 100px;;
-    height: 100px;;
+    width: 300px;
+    height: 75px;
     background-color:#383838;
     border-radius: 10px;
     display:flex;
     align-items: center;
     justify-content: center;
     position:relative;
-    right: 0%;;
+    right: 0%;
    
 }
+
 .textodobotao {
     color: #ffff;
     font-family: "Inter", sans-serif;
+    font-size: 21px;
+    text-decoration: none;
 }
 
 .botaoP {
-    width: 100px;;
-    height: 100px;;
+    width: 300px;
+    height: 75px;
     background-color:#383838;
     border-radius: 10px;
     display: flex;
     align-items: center;
     justify-content: center;
     position: relative;
-    left: 100% ;
+    margin-right: 0% ;
 }
-
 
 .bloco-conteudo {
     margin-bottom: 20px;
 }
+
 .botao{
+    width: 90% ;
     align-items:center;
-    width: 80%;
     justify-items:center;
-    display: flex ;
+    display: flex;
+    justify-content: space-between;
+    font-size: clamp(16px, 0.939vw + 12.479px, 26px);
+    place-items: center;
+    margin: 7% 0% 7% 7%;
 }
+
 @media only screen and (max-width: 600px) {
     .retangulo {
         display: none;
@@ -166,4 +184,13 @@ h1 {
         margin-block: 0;
         border: none;
     }
+}
+
+.logo{
+    margin-left: 10% ;
+}
+.circuloselect{
+    background-color: #49e062;
+    width: 24px;
+    height: 24px;
 }
