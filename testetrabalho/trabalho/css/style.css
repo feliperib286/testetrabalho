@@ -2,6 +2,10 @@
     padding: 0%;
     margin: 0%;
 }
+.blur {
+    filter: blur(5px);
+    pointer-events: none; /* Desativa a interatividade */
+}
 
 ul, ol {
     list-style-type: none;
